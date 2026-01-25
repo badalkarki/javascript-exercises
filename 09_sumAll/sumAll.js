@@ -2,8 +2,6 @@ const sumAll = function(value1,value2) {
     let sum = 0;
     if (value1 < 0 || value2 < 0) {
        return "ERROR";
-    }else if (typeof value1 !== "number" || typeof value2 !== "number") {
-        return "ERROR";
     } else if (!Number.isInteger(value1) || !Number.isInteger(value2)) {
         return "ERROR";
     }
