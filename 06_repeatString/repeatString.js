@@ -1,6 +1,6 @@
 const repeatString = function(word, times) {
     if (times < 0) {
-        return "Error!";
+        return "ERROR";
     }
     let string ="";
     for (let i = 0; i < times; i++) {
@@ -9,7 +9,7 @@ const repeatString = function(word, times) {
     return string;
 }
 
-console.log(repeatString("hey", 2));
+console.log(repeatString("hello", 10));
 
 // Do not edit below this line
 module.exports = repeatString;
