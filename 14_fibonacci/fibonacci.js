@@ -10,9 +10,9 @@ const fibonacci = function(num) {
             fibonacciArr.push(nextNum)
         }
     }
-    return fibonacciArr.pop();
+    return fibonacciArr[num - 1];
 };
-console.log(fibonacci(0));
+console.log(fibonacci(4));
 
 
 // Do not edit below this line
