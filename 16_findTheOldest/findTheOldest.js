@@ -1,3 +1,9 @@
+const getAge = function (death, birth) {
+    if(!death) {
+        death = 
+    }
+}
+
 const findTheOldest = function (arr) {
   return arr.reduce((acc, initialObj) => {
     let accAge;
